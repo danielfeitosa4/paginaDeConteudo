@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --color-font-primary: #555;
+  --color-font-secondary: #111;
+
+  --color-links: #fd8a24;
+
+  --color-top-footer: #333;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
