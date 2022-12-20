@@ -20,7 +20,9 @@ body {
 }
 
 .top-bar {
-  background-color: var(--color-font-primary);
+  background-color: var(--color-top-footer);
+  font-size: 24px;
+  font-weight: bold;
   padding: 0.5em;
   text-align: center;
   border-bottom: 5px solid #fd8a24;
@@ -28,30 +30,29 @@ body {
 }
 
 .container {
-  width: 50vw;
+  max-width: 888px;
   margin: auto;
-  padding-top: 2em;
+  padding: 30px;
 }
 
 .header h1 {
-  font-weight: 700;
-  font-size: 44px;
+  font-size: 56px;
   margin-bottom: 0.4em;
+  line-height: 54px;
 }
 
-.header p, h3, h4{
+.header p{
+  font-weight: 400;
+  font-size: 20px;
   padding-top: 0.5em;
-  color: var(--color-font-primary);
+  color: var(--color-font-secondary);
 }
 
-.header h3{
-  color: #555;
-  font-size: 15px;
-}
-
-.header h4{
+.author h3, sub{
   color: var(--color-font-primary);
-  font-size: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-top: 1em;
 }
 
 .header a, img {
@@ -61,17 +62,33 @@ body {
 }
 
 .content {
-  padding: 4em;
-  text-align: justify;
-  line-height: 1.5em;
+  max-width: 648px;
+  margin: auto;
   color: var(--color-font-primary);
-  font-weight: 500;
 }
 
-.content img {
+p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 1em;
+}
+
+figure {
+  margin: 40px 0;
+}
+
+figure>img {
+  width: 100%;
+}
+
+.image2 {
   width: 500px;
-  margin: 1em auto;
+  margin: 40px auto;
   display: block;
+}
+
+.number {
+  color: var(--color-font-secondary);
 }
 
 .footer {
